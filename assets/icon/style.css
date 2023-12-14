@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xzji0d');
+  src:  url('fonts/icomoon.eot?xzji0d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xzji0d') format('truetype'),
+    url('fonts/icomoon.woff?xzji0d') format('woff'),
+    url('fonts/icomoon.svg?xzji0d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-quote:before {
+  content: "\e901";
+}
+.icon-noun_crane:before {
+  content: "\e902";
+  color: #f4f4f4;
+}
+.icon-noun_cargo_protection:before {
+  content: "\e903";
+  color: #f4f4f4;
+}
+.icon-noun_delivery_2:before {
+  content: "\e904";
+  color: #f4f4f4;
+}
+.icon-noun_contract:before {
+  content: "\e905";
+  color: #f4f4f4;
+}
+.icon-noun_police:before {
+  content: "\e906";
+  color: #f4f4f4;
+}
+.icon-noun_delivery:before {
+  content: "\e907";
+  color: #f4f4f4;
+}
+.icon-noun_cargo_truck:before {
+  content: "\e908";
+  color: #f4f4f4;
+}
+.icon-noun_planning:before {
+  content: "\e909";
+  color: #f4f4f4;
+}

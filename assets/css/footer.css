@@ -1,0 +1,175 @@
+footer{
+    background-color: #E8E8E8;
+}
+
+.footer_main{
+    padding-top: 110px;
+}
+
+.footer_box{
+    display: flex;
+}
+
+.contact_us{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_logo{
+    display: flex;
+}
+
+.contact_us span{
+    color: #9E9E9E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    max-width: 337px;
+    width: 100%;
+}
+
+.cont_but_box{}
+
+.cont_but_box h4{
+    color: #323232;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 13px;
+}
+
+.cont_but{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.cont_but button{
+    max-width: 239px;
+    width: 100%;
+    padding: 17px 35px 17px 35px;
+    border-radius: 4px;
+    background: #FFF;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase; 
+}
+
+.footer_service{
+    max-width: 281px;
+    width: 100%;
+    margin-left: 120px;
+    margin-right: 63px;
+}
+
+.footer_service h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+.footer_service_list span{
+    color: #454545;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26.24px;
+}
+
+.contact_information{}
+
+.contact_information h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+.contact_information_box{
+    display: flex;
+    gap: 121px;
+}
+
+.contact_information_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact_information_left h4{
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.contact_information_left span{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px; 
+
+}
+
+.cont_box{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.cont_box a{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:  24px}
+
+.cont_box_last{
+    max-width: 211px;
+    width: 100%;
+}
+
+.contact_information_right{}
+
+.contact_information_right h4{
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.phone{
+   color: #E2000B;
+}
+
+.phone_title{
+    color: #686868;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19.5px;
+}
+
+.tel_number_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.tel_number{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.low{
+    padding-bottom: 48px;
+    margin-top: 60px;
+}
