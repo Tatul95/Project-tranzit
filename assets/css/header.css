@@ -52,6 +52,8 @@ header{
     display: flex;
     justify-content: space-between;
     border-left: 1px solid #6F6F6F;
+    max-width: 538px;
+    width: 100%;
 }
 
 .header_phone{

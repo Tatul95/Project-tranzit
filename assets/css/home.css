@@ -135,7 +135,6 @@
     background-color: #E8E8E8;
 }
 
-.industry_main{}
 
 .industry_title{
     color: #323232;
@@ -202,7 +201,6 @@
     background-size: cover;
 }
 
-.calculation_box{}
 
 .calculation_title{
     color: #F4F4F4;
@@ -218,7 +216,6 @@
     display: flex;
 }
 
-.calculation_box_left{}
 
 .calculation_box_left p{
     color: #F4F4F4;
@@ -395,4 +392,72 @@
 
 .about_right img{
     margin-left: 72px;
+}
+
+.example-photo_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.example-photo_title h2{
+    color: #F4F4F4;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 110px;
+    margin-bottom: 70px;
+}
+
+.picture-gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.example_arrows{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: relative;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    margin-top:0;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-next::before, .swiper-button-prev::before{
+    content: "";
+    position: absolute;
+    top: 16px;
+    width: 11px;
+    height: 11px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+
+}
+.swiper-button-prev::before{
+    left: 18px;
+    transform: rotate(-135deg);
+}
+.swiper-button-next::before{
+    right: 18px;
+    transform: rotate(45deg);
+
 }
